@@ -62,13 +62,10 @@
                         About Me
                     </h2>
                     <p>
-                        I'm Jackie, a software developer from Cleveland. I've spent many years in the finance and accounting
-                        field, and after working for two software companies, I desired to learn more about software development.
-                        I enrolled in We Can Code IT, a software engineering boot camp, and over the past several months,
-                        have learned C#, Object Oriented Programming, ASP.NET, MVC, SQL, HTML, CSS, JavaScript, and jQuery
-                        through extensive hands-on instruction, from a simple console application to a database-first MVC application.
-                        I've found a new passion that lets me create exciting projects as well as a challenging yet
-                        fulfilling new career path.<br /><br />
+                        I'm Jackie, a software developer from Cleveland. After spending many years
+                        in the finance and accounting field, I decided to pursue my interest in software
+                        development. I enrolled in the software engineering boot camp We Can Code IT
+                        and have learned through extensive hands-on instruction.<br /><br />
                         I hope you'll take some time to enjoy my portfolio and see how my skills, talents, and professional
                         background can help your company complete your next project and meet your goals.
                     </p>
@@ -78,46 +75,74 @@
                     <li><a href="https://www.linkedin.com/in/jackiepiedra" class="icon fa-linkedin major style2" target="_blank"><span class="label">Ipsum</span></a></li>
                     <li><a href="https://github.com/JackiePiedra" target="_blank" class="icon fa-github major style3"><span class="label">Dolor</span></a></li>
                 </ul>
+                <a href="#two" class="more scrolly">More</a>
             </div>
-            <a href="#two" class="more scrolly">More</a>
         </section>
 
+        <!--The Modal, will come back to this later to get modal images working-->
+        <!--<div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01" />
+            <div id="caption"></div>
+        </div>-->
         <!-- Two -->
         <section id="two" name="workExamples" class="wrapper alt style2">
             <section class="spotlight">
-                <div class="image"><img src="images/WardrobeMVC.jpg" alt="Wardrobe MVC" /></div><div class="content">
-                    <h2>Database-first ASP.NET MVC Application</h2>
+                <div class="image">
+                    <img id="myImg" src="images/WardrobeMVC.jpg" alt="Wardrobe MVC" />
+
+                </div><div class="content">
+                    <h2>MyCloset</h2>
                     <p>
-                        MVC | SQL | SSMS | HTML | CSS | JavaScript 
-                        <br/><br />
-                        Virtual wardrobe application created in Visual Studio that allows users to build a wardrobe and create/save outfits<br/><br/>
+                        MVC | SQL | SSMS | HTML | CSS | JavaScript
+                        <br /><br />
+                        Database-first ASP.NET MVC Application created in Visual Studio that allows users to build a wardrobe and create/save outfits<br /><br />
                         Project includes 6 tables with foreign key relationships created in SQL Server Management Studio
                     </p>
-                <!--<h3>
-                    <a href="https://github.com/JackiePiedra/WardrobeMVC" target="_blank" class="icon fa-github" id="githubCode"></a>
-                </h3>-->
-                <!--Button link to github code-->
+                    <!--<h3>
+                        <a href="https://github.com/JackiePiedra/WardrobeMVC" target="_blank" class="icon fa-github" id="githubCode"></a>
+                    </h3>-->
+                    <!--Button link to github code-->
                     <h4 id="codeLink">
                         <a href="https://github.com/JackiePiedra/WardrobeMVC" target="_blank" class="button special" id="github"> Project code here <span class="icon fa-github" id="gitCode"></span></a>
                     </h4>
                 </div>
             </section>
             <section class="spotlight">
-                <div class="image"><img src="../images/lake-2063957_960_720.jpg" alt="" /></div><div class="content">
+                <div class="image"><img id="myImg" src="../images/ReviewMVC.jpg" alt="" /></div><div class="content">
                     <h2>
-                        Tortor dolore feugiat<br />
-                        elementum magna
+                        Cleveland Rocks
                     </h2>
-                    <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+                    <p>
+                        MVC | SQL | SSMS | HTML | CSS <br /><br />
+                        Code-First MVC Review Site that allows users to read and write reviews for Cleveland area hotspots.<br /><br />
+                        Project was built in Visual Studio and databases were created through the use of migration
+                    </p>
+                    <!--Button link to github code-->
+                    <h4 id="codeLink">
+                        <a href="https://github.com/JackiePiedra/MVCReviewSite" target="_blank" class="button special" id="github"> Project code here <span class="icon fa-github" id="gitCode"></span></a>
+                    </h4>
                 </div>
             </section>
             <section class="spotlight">
-                <div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+                <div class="image">
+                    <img id="myImg" src="images/BankAccountManager.jpg" alt="Bank Account Manager" />
+                </div>
+                <div class="content">
                     <h2>
-                        Augue eleifend aliquet<br />
-                        sed condimentum
+                        Bank Account Manager
                     </h2>
-                    <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+                    <p>
+                        C# | Object Oriented Programming<br /><br />
+                        Console application that functions like an ATM, allowing users the ability to view
+                        account information, check accounts balances, and deposit/withdraw funds. <br /><br />
+                        Project was created in Visual Studio and includes two derived classes inheriting
+                        from the base class
+                    </p>
+                    <!--Button link to github code-->
+                    <h4 id="codeLink">
+                        <a href="https://github.com/JackiePiedra/BankAccountManagerProject" target="_blank" class="button special" id="github"> Project code here <span class="icon fa-github" id="gitCode"></span></a>
+                    </h4>
                 </div>
             </section>
         </section>
@@ -147,21 +172,24 @@
                         <p>HTML 5<br />CSS 3<br />Bootstrap<br />JavaScript<br />jQuery</p>
                     </li>
 
-                    <li class="icon fa-headphones">
-                        <h3>Mauris Imperdiet</h3>
-                        <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-                    </li>
                     <li class="icon fa-users">
+                        <h3>Teamwork</h3>
+                        <p>Paired Programming<br />Github</p>
+                    </li>
+                    <li class="icon fa-diamond">
                         <h3>Strengths</h3>
-                        <p>Quantitative and Analytical Skills<br/>Complex Problem Solving<br/>
-                        Team Leadership<br/>Task Prioritization<br/>Customer Service<br/>
-                        Ability to meet deadlines<br />Fluency in Spanish</p>
+                        <p>
+                            Quantitative and Analytical Skills<br />Complex Problem Solving<br />
+                            Team Leadership<br />Task Prioritization<br />Customer Service<br />
+                            Ability to meet deadlines<br />Fluency in Spanish
+                        </p>
                     </li>
                     <li class="icon fa-mortar-board">
                         <h3>Education</h3>
-                        <p>Software Engineering Certificate, <br /> We Can Code IT<br/><br/>
-                        Master of Business Administration,<br/>Cleveland State University<br/><br/>
-                        Bachelor of Business Administration in Accounting, Kent State University
+                        <p>
+                            Software Engineering Certificate, <br /> We Can Code IT<br /><br />
+                            Master of Business Administration,<br />Cleveland State University<br /><br />
+                            Bachelor of Business Administration in Accounting, Kent State University
                         </p>
                     </li>
                 </ul>
@@ -175,7 +203,8 @@
                     <h2>Contact Me</h2>
                     <p>If you'd like to work with me or get in touch, please use the form below</p>
                     <div class="row uniform">
-                        <form action="https://formspree.io/jackie.r.piedra@gmail.com" method="POST">
+                        <!--Form to send to email, will try to get it to work later-->
+                        <!--<form action="https://formspree.io/jackie.r.piedra@gmail.com" method="POST">-->
 
                         <div class="6u 12u$(xsmall)">
                             <input type="text" name="contactName" id="contactName" placeholder="Name" />
@@ -195,7 +224,7 @@
                             </ul>
                         </div>
 
-                        </form>
+                        <!--</form>-->
                     </div>
 
                     <!--<div class="row 50%">
@@ -221,12 +250,12 @@
         </section>
 
 
+
+
         <!-- Footer -->
         <footer id="footer">
             <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/jackiepiedra/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
+                <li><a href="https://www.linkedin.com/in/jackiepiedra/" target="_blank" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
                 <li><a href="https://github.com/JackiePiedra" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
                 <li><a href="#cta" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
             </ul>
@@ -246,6 +275,31 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
+
+
+
+    <!--<script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('myImg');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>-->
 
 </body>
 </html>

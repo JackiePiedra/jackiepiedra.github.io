@@ -3581,8 +3581,8 @@
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			padding-right: 3em;
-			width: 70%;
+			/*padding-right: 3em;*/
+			width: 100%;
 		}
 
 			#cta .inner header p {
